@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA0C74F8218EA438003EA1F4 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0C74F6218EA438003EA1F4 /* BaseTransition.swift */; };
+		AA0C74F9218EA438003EA1F4 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0C74F7218EA438003EA1F4 /* FadeTransition.swift */; };
+		AA0C74FD218EBB5E003EA1F4 /* newViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0C74FC218EBB5E003EA1F4 /* newViewController.swift */; };
 		AA4D40722187A02C00057DFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D40712187A02C00057DFF /* AppDelegate.swift */; };
-		AA4D40742187A02C00057DFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D40732187A02C00057DFF /* ViewController.swift */; };
+		AA4D40742187A02C00057DFF /* cardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D40732187A02C00057DFF /* cardViewController.swift */; };
 		AA4D40772187A02C00057DFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4D40752187A02C00057DFF /* Main.storyboard */; };
 		AA4D40792187A03000057DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4D40782187A03000057DFF /* Assets.xcassets */; };
 		AA4D407C2187A03000057DFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4D407A2187A03000057DFF /* LaunchScreen.storyboard */; };
@@ -34,9 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA0C74F6218EA438003EA1F4 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseTransition.swift; path = "../../../../../../Downloads/Transition Files/BaseTransition.swift"; sourceTree = "<group>"; };
+		AA0C74F7218EA438003EA1F4 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FadeTransition.swift; path = "../../../../../../Downloads/Transition Files/FadeTransition.swift"; sourceTree = "<group>"; };
+		AA0C74FC218EBB5E003EA1F4 /* newViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newViewController.swift; sourceTree = "<group>"; };
 		AA4D406E2187A02C00057DFF /* remakeTinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = remakeTinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4D40712187A02C00057DFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA4D40732187A02C00057DFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA4D40732187A02C00057DFF /* cardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardViewController.swift; sourceTree = "<group>"; };
 		AA4D40762187A02C00057DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA4D40782187A03000057DFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA4D407B2187A03000057DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -77,6 +83,7 @@
 		AA4D40652187A02C00057DFF = {
 			isa = PBXGroup;
 			children = (
+				AA0C74FC218EBB5E003EA1F4 /* newViewController.swift */,
 				AA4D40702187A02C00057DFF /* remakeTinder */,
 				AA4D40852187A03000057DFF /* remakeTinderTests */,
 				AA4D40902187A03000057DFF /* remakeTinderUITests */,
@@ -97,8 +104,10 @@
 		AA4D40702187A02C00057DFF /* remakeTinder */ = {
 			isa = PBXGroup;
 			children = (
+				AA0C74F6218EA438003EA1F4 /* BaseTransition.swift */,
+				AA0C74F7218EA438003EA1F4 /* FadeTransition.swift */,
 				AA4D40712187A02C00057DFF /* AppDelegate.swift */,
-				AA4D40732187A02C00057DFF /* ViewController.swift */,
+				AA4D40732187A02C00057DFF /* cardViewController.swift */,
 				AA4D40752187A02C00057DFF /* Main.storyboard */,
 				AA4D40782187A03000057DFF /* Assets.xcassets */,
 				AA4D407A2187A03000057DFF /* LaunchScreen.storyboard */,
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA4D40742187A02C00057DFF /* ViewController.swift in Sources */,
+				AA0C74FD218EBB5E003EA1F4 /* newViewController.swift in Sources */,
+				AA4D40742187A02C00057DFF /* cardViewController.swift in Sources */,
+				AA0C74F8218EA438003EA1F4 /* BaseTransition.swift in Sources */,
+				AA0C74F9218EA438003EA1F4 /* FadeTransition.swift in Sources */,
 				AA4D40722187A02C00057DFF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
